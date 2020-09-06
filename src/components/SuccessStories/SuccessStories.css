@@ -1,0 +1,15 @@
+.successStories {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start !important;
+  height: 360px;
+}
+
+.successStories__title {
+  /* margin-top: 10px !important; */
+  text-align: center !important;
+  font-size: 48px !important;
+  box-shadow: 0 3px 4px -4px rgb(167, 165, 165);
+  padding-bottom: 10px !important;
+  color: #61605f !important;
+}

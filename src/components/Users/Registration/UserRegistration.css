@@ -1,0 +1,83 @@
+.registration {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto;
+}
+.registration__titleMain {
+  margin-bottom: 30px;
+}
+.registration__title {
+  display: block;
+  margin-top: 30px !important;
+  text-align: center !important;
+  font-size: 48px !important;
+  box-shadow: 0 3px 4px -4px rgb(167, 165, 165);
+  padding-bottom: 10px !important;
+  color: #61605f !important;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.registration__form {
+  display: flex;
+  flex-direction: column;
+  width: 40% !important;
+}
+.registration__options {
+  display: flex;
+  justify-content: center;
+}
+
+.registration__options > input {
+  width: 100%;
+  font-size: 24px;
+  padding: 0px;
+  margin-bottom: 5px;
+  border: none;
+  color: gray;
+  outline-width: 0;
+  transition: 200ms border ease-in;
+}
+.registration__options > input::placeholder {
+  color: rgb(184, 183, 183);
+}
+
+.registration__options > input:hover {
+  border-bottom: 2px solid lightblue;
+}
+
+.registration__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.registration__buttons > .MuiButtonBase-root {
+  /* padding: 0 30px; */
+  margin: 0 0 0 15px;
+}
+
+.registration__errors {
+  display: block;
+  color: red;
+  width: 100%;
+  font-size: 16px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .registration__form {
+    display: flex;
+    flex-direction: column;
+    width: 80% !important;
+  }
+}

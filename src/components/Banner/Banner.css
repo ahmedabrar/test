@@ -1,0 +1,79 @@
+.banner__image {
+  background-size: cover;
+  background-repeat: none;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5828d63b9f7456b3bc31c681/1482283499117-3U4SDKTI4AT5YZGQEXQ4/ke17ZwdGBToddI8pDm48kJGZgPo7Tfb2ohCs4INQNLIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnEFVfDVHmdPxgXXTDx50nv4VEf8pFMoVbSf9Wqxzw5azMYrJSKXaZi6zF3FRoSDKUQ/resume-netcredit-banner.jpg");
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  box-sizing: border-box;
+  height: 650px;
+  width: 100%;
+  position: relative;
+}
+.banner__link {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.banner__link > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(9, 123, 209) !important;
+}
+.banner__link > a:hover {
+  transition: 300ms color ease-in;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(87, 178, 248) !important;
+}
+.banner {
+  /* background: linear-gradient(rgb(85, 8, 8), rgba(0, 0, 0, 1)); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  top: 45%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.banner__title {
+  display: flex;
+  padding-bottom: 10px;
+  color: rgb(211, 7, 7);
+  font-size: 30px;
+}
+.banner__description {
+  display: flex;
+  color: white;
+  padding-bottom: 15px;
+  font-size: 35px;
+}
+.banner__search {
+  display: flex;
+}
+.banner__link a {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    width: 100%;
+    display: flex;
+  }
+  .banner__image {
+    background-size: cover;
+    background-repeat: none;
+    flex: 1;
+  }
+  .banner {
+    display: none;
+  }
+}

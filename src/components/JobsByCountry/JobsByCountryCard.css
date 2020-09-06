@@ -1,0 +1,34 @@
+.jobsByCountryCard {
+  display: flex;
+}
+
+.jobsByCountryCard__headings {
+  text-align: center;
+  padding: 20px;
+  color: #61605f;
+}
+.jobsByCountryCard__headings p {
+  padding-top: 10px;
+}
+
+.jobsByCountryCard__flag {
+  display: flex !important;
+  justify-content: center !important;
+  flex: 1;
+}
+@media only screen and (max-width: 600px) {
+  .jobsByCountryCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .jobsByCountryCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
